@@ -35,7 +35,7 @@ class BooksController < ApplicationController
     if @book.update(book_params)
       redirect_to @book, notice: 'Book was successfully updated.'
     else
-    　render :edit
+      render :edit
     end
   end
 
